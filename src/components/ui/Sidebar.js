@@ -1,11 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from './assets/img/logo.png';
+
 
 
 const Sidebar = () => {
        return( 
         <div className="md:w-2/6 xl:w-1/5 bg-gray-800">
-            <div className="p-6">                
+            <div className="p-6">      
+
+                <img src={logo}                
+                style={{width: 100, height: 130, marginLeft:80}}/>                            
+
                 <p className="uppercase text-white text-2xl tracking-wide text-center font-bold">Ocho Bits LTDA</p>
 
                 <p className="mt-3 text-gray-600">Bienvenido</p>
