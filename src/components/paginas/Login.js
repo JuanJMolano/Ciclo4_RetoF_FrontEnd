@@ -40,6 +40,7 @@ const Login = () => {
             <div className="bg-gray-800 min-h-screen flex flex-col justify-center">
 
             <h1 className="text-center text-2xl text-white font-light">Login</h1>
+            <h4 className="text-center text-2xl text-white font-light">puedes ingresar cualquier correo y contraseña válido</h4>
 
 
 
