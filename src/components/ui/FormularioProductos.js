@@ -82,11 +82,29 @@ const actualizarProducto = id =>{
                             </div>
                             </div>
                             <div className="lg:w-7/12 xl:w-9/12 pl-5">
-                            <p className="font-bold text-2xl text-yellow-600 mb-4">{brand} </p>
                             <p className="font-bold text-2xl text-yellow-600 mb-4">{id} </p>
-                            
-                            <p className="text-gray-600 mb-4">{model} </p>
-                            
+
+                            <p className="text-gray-600 mb-4">Marca: {''}
+                            <span className="font-bold text-2xl text-yellow-600 mb-4"> {brand}</span>
+
+                            <p className="text-gray-600 mb-4">modelo: {''}
+                            <span className="font-bold text-2xl text-yellow-600 mb-4"> {model}</span>
+
+                            <p className="text-gray-600 mb-4">Procesador: {''}
+                            <span className="text-gray-700 font-bold"> {procesor}</span>
+
+                            <p className="text-gray-600 mb-4">Sistema Operativo: {''}
+                            <span className="text-gray-700 font-bold"> {os}</span>
+
+                            <p className="text-gray-600 mb-4">Descripción: {''}
+                            <span className="text-gray-700 font-bold"> {description}</span> 
+
+                            <p className="text-gray-600 mb-4">Memoria: {''}
+                            <span className="text-gray-700 font-bold"> {memory}</span> 
+
+                            <p className="text-gray-600 mb-4">Disco Duro: {''}
+                            <span className="text-gray-700 font-bold"> {hardDrive}</span> 
+
                             <p className="text-gray-600 mb-4">Precios: {''}
                             <span className="text-gray-700 font-bold">$ {price}</span> 
                             
@@ -94,6 +112,13 @@ const actualizarProducto = id =>{
                             <span className="text-gray-700 font-bold">{quantity}</span> 
                         </p>
                         </p>
+                        </p>
+                        </p>
+                        </p>
+                        </p>
+                        </p>
+                        </p>
+                        </p>                        
                         <button
                             onClick={ () => borrarProducto(producto.id)}
                             type="submit"
